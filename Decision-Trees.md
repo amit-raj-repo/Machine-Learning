@@ -10,7 +10,7 @@ A Decision Tree has 3 main elements:
 2. _Internal Nodes_ are the ones based on which the tree split into branches
 3. Finally the end of a branch which dos not split is called a _Leaf Node_
 
-<img src="https://github.com/amit-raj-repo/Machine-Learning/blob/54407fb53f8984046d7fb3bf7391737423420a8d/Tree%20Elements.png" width="600" height ="400">
+<img src="https://github.com/amit-raj-repo/Machine-Learning/blob/main/Tree%20Elements.png?raw=true" width="600" height ="400">
 
 To get a better understanding of Decision Trees, imagine you are in a bookshop and are contemplating which book to buy. A simple Decision Tree will help you make your decision.
 
