@@ -1,6 +1,6 @@
-# Decision Trees
+# **Decision Trees**
 
-## What is a Decision Tree?
+## **What is a Decision Tree?**
 
 Decision Tree is our goto algorithm when we start solving either a **Classification** or a **Regression** problem. Tree based algorithm are used widely mostly because of their simplicity and they are easy to visualize.
 
@@ -19,7 +19,7 @@ To get a better understanding of Decision Trees, imagine you are in a bookshop a
 After understanding the basic terminologies, lets look into how a Decision Tree Algorithm works!
 
 
-## Decision Trees - Algorithm
+## **Decision Trees - Algorithm**
 
 ### ***Problem Context***
 
