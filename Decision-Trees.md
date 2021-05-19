@@ -14,7 +14,7 @@ A Decision Tree has 3 main elements:
 
 To get a better understanding of Decision Trees, imagine you are in a bookshop and are contemplating which book to buy. A simple Decision Tree will help you make your decision.
 
-![Decision Tree Example](https://github.com/amit-raj-repo/Machine-Learning/blob/main/Tree%20Example.png)
+<img src="https://github.com/amit-raj-repo/Machine-Learning/blob/main/Tree%20Example.png?raw=true" width="550" height ="400">
 
 After understanding the basic terminologies, lets look into how a Decision Tree Algorithm works!
 
@@ -42,8 +42,7 @@ But before we jump into how trees are made, let's look at **Gini Index**
 
 **Gini Index** is the criteria used by the tree to decide _which variable to split by_ and by _what value_. **Gini Index** is calculated based on the following formula
 
-
-![Gini Index Formula](https://github.com/amit-raj-repo/Machine-Learning/blob/main/Gini%20Impurity.png)
+<img src="https://github.com/amit-raj-repo/Machine-Learning/blob/main/Gini%20Impurity.png?raw=true" width="200" height ="75">
 
 Where,
 **C** = Number of Classes (In the current case it's 2, can be _n_)
@@ -55,9 +54,9 @@ For creating a **Decision Tree**, we need to find the best split at every point 
 - Given our use case, we have _3 Independent Variables_, we start by finding the one which gives us the best split i.e. **Minimum Gini Impurity**
   - We start with *Gender* and calculate the overall _Gini Impurity_ for the variable
   
-  ![Decision Tree - Gender](https://github.com/amit-raj-repo/Machine-Learning/blob/main/SmartSelect_20210519-114845_Samsung%20Notes.jpg)
+  <img src="https://github.com/amit-raj-repo/Machine-Learning/blob/main/SmartSelect_20210519-114845_Samsung%20Notes.jpg?raw=true" width="600" height ="300">
 
-  ![Decision Tree - Gender](https://github.com/amit-raj-repo/Machine-Learning/blob/main/SmartSelect_20210519-114922_Samsung%20Notes.jpg)
+  <img src="https://github.com/amit-raj-repo/Machine-Learning/blob/main/SmartSelect_20210519-114922_Samsung%20Notes.jpg?raw=true" width="600" height ="800">
 
 - Similarly **Gini Impurity** will be calculated for Nationalities as well, for Nationalities we will have split as _Indian or Not_ or _German or Not_
   
@@ -65,8 +64,8 @@ For creating a **Decision Tree**, we need to find the best split at every point 
   - Arrange the column values in ***Ascending Order***
   - For every ***Adjacent Entry*** calculate the *Average* i.e. say the first Age entry is 30 and the next one is 40, our splitting value will be 35 which is the _Average of 30 and 40_
     
-      ![Decision Tree- Age](https://github.com/amit-raj-repo/Machine-Learning/blob/main/SmartSelect_20210519-114959_Samsung%20Notes.JPG)
-      ![Decision Tree- Age](https://github.com/amit-raj-repo/Machine-Learning/blob/main/SmartSelect_20210519-115043_Samsung%20Notes.jpg)
+      <img src="https://github.com/amit-raj-repo/Machine-Learning/blob/main/SmartSelect_20210519-114959_Samsung%20Notes.jpg?raw=true" width="600" height ="200">
+      <img src="https://github.com/amit-raj-repo/Machine-Learning/blob/main/SmartSelect_20210519-115043_Samsung%20Notes.jpg?raw=true" width="600" height ="700">
 
   - We need to repeat the above 2 steps for all _Adjacent Entries_
   - Out of all the ***Gini Impurities*** for _Age_, choose the one with minimum impurities
