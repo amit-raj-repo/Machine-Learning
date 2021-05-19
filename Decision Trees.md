@@ -10,7 +10,7 @@ A Decision Tree has 3 main elements:
 2. _Internal Nodes_ are the ones based on which the tree split into branches
 3. Finally the end of a branch which dos not split is called a _Leaf Node_
 
-<img src=https://github.com/amit-raj-repo/Machine-Learning/blob/main/Tree%20Elements.PNG width="600" height ="400">
+<img src=https://github.com/amit-raj-repo/Machine-Learning/blob/main/Tree Elements.png width="600" height ="400">
 
 To get a better understanding of Decision Trees, imagine you are in a bookshop and are contemplating which book to buy. A simple Decision Tree will help you make your decision.
 
@@ -65,7 +65,7 @@ For creating a **Decision Tree**, we need to find the best split at every point 
   - Arrange the column values in ***Ascending Order***
   - For every ***Adjacent Entry*** calculate the *Average* i.e. say the first Age entry is 30 and the next one is 40, our splitting value will be 35 which is the _Average of 30 and 40_
     
-      ![Decision Tree- Age](https://github.com/amit-raj-repo/Machine-Learning/blob/main/SmartSelect_20210519-114959_Samsung%20Notes.jpg)
+      ![Decision Tree- Age](https://github.com/amit-raj-repo/Machine-Learning/blob/main/SmartSelect_20210519-114959_Samsung%20Notes.JPG)
       ![Decision Tree- Age](https://github.com/amit-raj-repo/Machine-Learning/blob/main/SmartSelect_20210519-115043_Samsung%20Notes.jpg)
 
   - We need to repeat the above 2 steps for all _Adjacent Entries_
