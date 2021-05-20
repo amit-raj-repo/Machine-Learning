@@ -1,8 +1,8 @@
-# **Decision Trees**
+# **Understanding Decision Trees**
 
 ## **What is a Decision Tree?**
 
-Decision Tree is our goto algorithm when we start solving either a **Classification** or a **Regression** problem. Tree based algorithm are used widely mostly because of their simplicity and they are easy to visualize.
+Decision Tree is our goto algorithm when we start solving either a **Classification** or a **Regression** problem. Tree based algorithm are used widely mostly because of their simplicity and they are easy to visualize. 
 
 A Decision Tree has 3 main elements:
 
@@ -19,7 +19,7 @@ To get a better understanding of Decision Trees, imagine you are in a bookshop a
 After understanding the basic terminologies, lets look into how a Decision Tree Algorithm works!
 
 
-## **Decision Trees - Algorithm**
+## **Decision Tree - Algorithm**
 
 ### ***Problem Context***
 
@@ -76,4 +76,21 @@ For creating a **Decision Tree**, we need to find the best split at every point 
   - **Nationality - Indian** = 0.45
   - **Age - 50** = 0.38
 
-From the results, we can can conclude that **Gender - Male** is our best choice for ***Root Node***. We will carry out the same steps for the next split until a stopping criteria (Discussed Later) is reached
+From the results, we can can conclude that **Gender - Male** is our best choice for ***Root Node***
+
+We will carry out the same steps and grow the tree further until a stopping criteria is reached.
+
+## ***Advantages of Decision Trees***
+
+1. Decision Trees are Simple to understand, interpret, visualize
+2. Decision trees implicitly perform variable or feature selection
+3. Can handle both numerical and categorical data
+4. Can also handle multi-output problems
+5. Nonlinear relationships between parameters do not affect tree performance
+
+After going through this post, you'll have a fair idea of how Decision Tree work for a ***Classification Problem***. 
+
+Posts you might be interested in:
+
+- **Regression Trees**
+- **Decision Tree Implementation & Hyperparameter Tuning**
